@@ -8,8 +8,6 @@ app = Flask(__name__)
 CORS(app)  # Permite CORS para todas as origens
 
 
-
-
 # Determina o caminho do arquivo com base no diretório do script atual
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
